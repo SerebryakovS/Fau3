@@ -1,0 +1,6 @@
+[0/1] Re-running CMake...
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/usr/bin/cmake --regenerate-during-build -S/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware -B/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build

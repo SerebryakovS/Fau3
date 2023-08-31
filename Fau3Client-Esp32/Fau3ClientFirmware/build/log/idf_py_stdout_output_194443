@@ -1,0 +1,81 @@
+[1/5] cd /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build/esp-idf/esptool_py && /home/stepan/.espressif/python_env/idf5.0_py3.11_env/bin/python /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build/partition_table/partition-table.bin /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build/play_mp3_control.bin
+play_mp3_control.bin binary size 0xf67e0 bytes. Smallest app partition is 0x100000 bytes. 0x9820 bytes (4%) free.
+Warning: The smallest app partition is nearly full (4% free space left)!
+[2/5] Performing build step for 'bootloader'
+[1/1] cd /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build/bootloader/esp-idf/esptool_py && /home/stepan/.espressif/python_env/idf5.0_py3.11_env/bin/python /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] cd /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf -D "SERIAL_TOOL=/home/stepan/.espressif/python_env/idf5.0_py3.11_env/bin/python;;/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build -P /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 play_mp3_control.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.5.1
+Serial port /dev/ttyUSB0
+Connecting...
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: e0:5a:1b:a7:c9:84
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00106fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26400 bytes to 16468...
+Writing at 0x00001000... (50 %)
+Writing at 0x000076ab... (100 %)
+Wrote 26400 bytes (16468 compressed) at 0x00001000 in 0.7 seconds (effective 321.6 kbit/s)...
+Hash of data verified.
+Compressed 1009632 bytes to 643802...
+Writing at 0x00010000... (2 %)
+Writing at 0x00018893... (5 %)
+Writing at 0x000254f9... (7 %)
+Writing at 0x0002ab58... (10 %)
+Writing at 0x00031c35... (12 %)
+Writing at 0x0003e652... (15 %)
+Writing at 0x00044789... (17 %)
+Writing at 0x0004a178... (20 %)
+Writing at 0x0004fd1e... (22 %)
+Writing at 0x000558aa... (25 %)
+Writing at 0x0005b928... (27 %)
+Writing at 0x00061bfe... (30 %)
+Writing at 0x00067861... (32 %)
+Writing at 0x0006d36b... (35 %)
+Writing at 0x00072d5f... (37 %)
+Writing at 0x000793d6... (40 %)
+Writing at 0x0007f031... (42 %)
+Writing at 0x00084b96... (45 %)
+Writing at 0x00089f9a... (47 %)
+Writing at 0x0008f2cb... (50 %)
+Writing at 0x00094693... (52 %)
+Writing at 0x00099ba4... (55 %)
+Writing at 0x0009f24b... (57 %)
+Writing at 0x000a4a46... (60 %)
+Writing at 0x000aa6fd... (62 %)
+Writing at 0x000afcb0... (65 %)
+Writing at 0x000b56c1... (67 %)
+Writing at 0x000baea1... (70 %)
+Writing at 0x000c0619... (72 %)
+Writing at 0x000c5d10... (75 %)
+Writing at 0x000cb81e... (77 %)
+Writing at 0x000d131e... (80 %)
+Writing at 0x000d6d61... (82 %)
+Writing at 0x000e0248... (85 %)
+Writing at 0x000e6aae... (87 %)
+Writing at 0x000ee569... (90 %)
+Writing at 0x000f4300... (92 %)
+Writing at 0x000f9cb3... (95 %)
+Writing at 0x000ff958... (97 %)
+Writing at 0x00104b1e... (100 %)
+Wrote 1009632 bytes (643802 compressed) at 0x00010000 in 14.5 seconds (effective 555.2 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 613.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

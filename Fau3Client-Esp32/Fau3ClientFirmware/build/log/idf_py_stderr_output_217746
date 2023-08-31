@@ -1,0 +1,11 @@
+fatal: not a git repository (or any of the parent directories): .git
+CMake Error at /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/tools/cmake/build.cmake:519 (message):
+  ERROR: Cannot establish a connection to the component registry.  Are you
+  connected to the internet?
+
+Call Stack (most recent call first):
+  /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/tools/cmake/project.cmake:447 (idf_build_process)
+  CMakeLists.txt:14 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

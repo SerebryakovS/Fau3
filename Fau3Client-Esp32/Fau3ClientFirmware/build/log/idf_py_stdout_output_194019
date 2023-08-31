@@ -1,0 +1,225 @@
+[1/65] Linking C static library esp-idf/esp_codec_dev/libesp_codec_dev.a
+[2/65] Linking C static library esp-idf/esp_event_cast/libesp_event_cast.a
+[3/65] Building C object esp-idf/bluetooth_service/CMakeFiles/__idf_bluetooth_service.dir/hfp_stream.c.obj
+[4/65] Building C object esp-idf/bluetooth_service/CMakeFiles/__idf_bluetooth_service.dir/bluetooth_service.c.obj
+[5/65] Building C object esp-idf/bluetooth_service/CMakeFiles/__idf_bluetooth_service.dir/bt_keycontrol.c.obj
+[6/65] Building C object esp-idf/bluetooth_service/CMakeFiles/__idf_bluetooth_service.dir/a2dp_stream.c.obj
+[7/65] Linking C static library esp-idf/input_key_service/libinput_key_service.a
+[8/65] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/tts_stream.c.obj
+[9/65] Performing build step for 'bootloader'
+[1/1] cd /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build/bootloader/esp-idf/esptool_py && /home/stepan/.espressif/python_env/idf5.0_py3.11_env/bin/python /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[10/65] No install step for 'bootloader'
+[11/65] Building C object esp-idf/playlist/CMakeFiles/__idf_playlist.dir/sdcard_scan/sdcard_scan.c.obj
+[12/65] Completed 'bootloader'
+[13/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/exc_10_16_table.c.obj
+[14/65] Building C object esp-idf/audio_stream/CMakeFiles/__idf_audio_stream.dir/algorithm_stream.c.obj
+[15/65] Building C object esp-idf/ota_service/CMakeFiles/__idf_ota_service.dir/esp_fs_ota.c.obj
+[16/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/exc_10_32_table.c.obj
+[17/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/exc_20_32_table.c.obj
+[18/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/exc_5_64_table.c.obj
+[19/65] Linking C static library esp-idf/playlist/libplaylist.a
+[20/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/exc_8_128_table.c.obj
+[21/65] Linking C static library esp-idf/audio_stream/libaudio_stream.a
+[22/65] Building C object esp-idf/ota_service/CMakeFiles/__idf_ota_service.dir/ota_service.c.obj
+[23/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/exc_5_256_table.c.obj
+[24/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/bits.c.obj
+[25/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/gain_table_lbr.c.obj
+[26/65] Linking C static library esp-idf/bluetooth_service/libbluetooth_service.a
+[27/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/gain_table.c.obj
+[28/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/hexc_10_32_table.c.obj
+[29/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/hexc_table.c.obj
+[30/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/high_lsp_tables.c.obj
+[31/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/lpc.c.obj
+[32/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/lsp_tables_nb.c.obj
+[33/65] Building C object esp-idf/ota_service/CMakeFiles/__idf_ota_service.dir/ota_proc_default.c.obj
+[34/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/cb_search.c.obj
+[35/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/kiss_fftr.c.obj
+[36/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/modes.c.obj
+[37/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/lsp.c.obj
+[38/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/modes_wb.c.obj
+[39/65] Linking C static library esp-idf/ota_service/libota_service.a
+[40/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/filters.c.obj
+[41/65] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/driver/deprecated/driver/i2s.h:23,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-adf/components/audio_stream/include/i2s_stream.h:28,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:11:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-adf/components/audio_stream/include/i2s_stream.h:28,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:11:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:5:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c: In function 'WifiEventHandler':
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:290:67: warning: passing argument 1 of 'ip4addr_ntoa' from incompatible pointer type [-Wincompatible-pointer-types]
+  290 |         ESP_LOGI(TAG, "Access Point IP Address: %s", ip4addr_ntoa(&ip_info.gw));
+      |                                                                   ^~~~~~~~~~~
+      |                                                                   |
+      |                                                                   esp_ip4_addr_t * {aka struct esp_ip4_addr *}
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/log/include/esp_log.h:410:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  410 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:290:9: note: in expansion of macro 'ESP_LOGI'
+  290 |         ESP_LOGI(TAG, "Access Point IP Address: %s", ip4addr_ntoa(&ip_info.gw));
+      |         ^~~~~~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:43,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:46,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/include/lwip/sockets.h:8,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/managed_components/espressif__esp_websocket_client/include/esp_websocket_client.h:17,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:34:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:207:38: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'esp_ip4_addr_t *' {aka 'struct esp_ip4_addr *'}
+  207 | char *ip4addr_ntoa(const ip4_addr_t *addr);
+      |                    ~~~~~~~~~~~~~~~~~~^~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:5:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:290:67: warning: passing argument 1 of 'ip4addr_ntoa' from incompatible pointer type [-Wincompatible-pointer-types]
+  290 |         ESP_LOGI(TAG, "Access Point IP Address: %s", ip4addr_ntoa(&ip_info.gw));
+      |                                                                   ^~~~~~~~~~~
+      |                                                                   |
+      |                                                                   esp_ip4_addr_t * {aka struct esp_ip4_addr *}
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/log/include/esp_log.h:411:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  411 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:290:9: note: in expansion of macro 'ESP_LOGI'
+  290 |         ESP_LOGI(TAG, "Access Point IP Address: %s", ip4addr_ntoa(&ip_info.gw));
+      |         ^~~~~~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:43,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:46,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/include/lwip/sockets.h:8,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/managed_components/espressif__esp_websocket_client/include/esp_websocket_client.h:17,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:34:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:207:38: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'esp_ip4_addr_t *' {aka 'struct esp_ip4_addr *'}
+  207 | char *ip4addr_ntoa(const ip4_addr_t *addr);
+      |                    ~~~~~~~~~~~~~~~~~~^~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:5:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:290:67: warning: passing argument 1 of 'ip4addr_ntoa' from incompatible pointer type [-Wincompatible-pointer-types]
+  290 |         ESP_LOGI(TAG, "Access Point IP Address: %s", ip4addr_ntoa(&ip_info.gw));
+      |                                                                   ^~~~~~~~~~~
+      |                                                                   |
+      |                                                                   esp_ip4_addr_t * {aka struct esp_ip4_addr *}
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/log/include/esp_log.h:412:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  412 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:290:9: note: in expansion of macro 'ESP_LOGI'
+  290 |         ESP_LOGI(TAG, "Access Point IP Address: %s", ip4addr_ntoa(&ip_info.gw));
+      |         ^~~~~~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:43,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:46,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/include/lwip/sockets.h:8,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/managed_components/espressif__esp_websocket_client/include/esp_websocket_client.h:17,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:34:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:207:38: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'esp_ip4_addr_t *' {aka 'struct esp_ip4_addr *'}
+  207 | char *ip4addr_ntoa(const ip4_addr_t *addr);
+      |                    ~~~~~~~~~~~~~~~~~~^~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:5:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:290:67: warning: passing argument 1 of 'ip4addr_ntoa' from incompatible pointer type [-Wincompatible-pointer-types]
+  290 |         ESP_LOGI(TAG, "Access Point IP Address: %s", ip4addr_ntoa(&ip_info.gw));
+      |                                                                   ^~~~~~~~~~~
+      |                                                                   |
+      |                                                                   esp_ip4_addr_t * {aka struct esp_ip4_addr *}
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/log/include/esp_log.h:413:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  413 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:290:9: note: in expansion of macro 'ESP_LOGI'
+  290 |         ESP_LOGI(TAG, "Access Point IP Address: %s", ip4addr_ntoa(&ip_info.gw));
+      |         ^~~~~~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:43,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:46,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/include/lwip/sockets.h:8,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/managed_components/espressif__esp_websocket_client/include/esp_websocket_client.h:17,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:34:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:207:38: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'esp_ip4_addr_t *' {aka 'struct esp_ip4_addr *'}
+  207 | char *ip4addr_ntoa(const ip4_addr_t *addr);
+      |                    ~~~~~~~~~~~~~~~~~~^~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:5:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:290:67: warning: passing argument 1 of 'ip4addr_ntoa' from incompatible pointer type [-Wincompatible-pointer-types]
+  290 |         ESP_LOGI(TAG, "Access Point IP Address: %s", ip4addr_ntoa(&ip_info.gw));
+      |                                                                   ^~~~~~~~~~~
+      |                                                                   |
+      |                                                                   esp_ip4_addr_t * {aka struct esp_ip4_addr *}
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/log/include/esp_log.h:414:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  414 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:290:9: note: in expansion of macro 'ESP_LOGI'
+  290 |         ESP_LOGI(TAG, "Access Point IP Address: %s", ip4addr_ntoa(&ip_info.gw));
+      |         ^~~~~~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:43,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:46,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/include/lwip/sockets.h:8,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/managed_components/espressif__esp_websocket_client/include/esp_websocket_client.h:17,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:34:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:207:38: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'esp_ip4_addr_t *' {aka 'struct esp_ip4_addr *'}
+  207 | char *ip4addr_ntoa(const ip4_addr_t *addr);
+      |                    ~~~~~~~~~~~~~~~~~~^~~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c: In function 'Fau3Propogate':
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:379:35: warning: passing argument 1 of 'mbedtls_base64_encode' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  379 |     switch (mbedtls_base64_encode(PayloadBase64, PayloadBase64Size, &Outlen, PayloadSpeex, PayloadSpeexSize)){
+      |                                   ^~~~~~~~~~~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:39:
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/base64.h:57:43: note: expected 'unsigned char *' but argument is of type 'const char *'
+   57 | int mbedtls_base64_encode( unsigned char *dst, size_t dlen, size_t *olen,
+      |                            ~~~~~~~~~~~~~~~^~~
+/home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:395:10: warning: passing argument 1 of 'free' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  395 |     free(PayloadBase64);
+      |          ^~~~~~~~~~~~~
+In file included from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/newlib/platform_include/assert.h:13,
+                 from /home/stepan/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/reent.h:503,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/newlib/platform_include/sys/reent.h:9,
+                 from /home/stepan/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/string.h:11,
+                 from /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/main/main.c:2:
+/home/stepan/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h:98:15: note: expected 'void *' but argument is of type 'const char *'
+   98 | void    free (void *) _NOTHROW;
+      |               ^~~~~~
+[42/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/kiss_fft.c.obj
+[43/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/speex_callbacks.c.obj
+[44/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/speex_header.c.obj
+[45/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/speex.c.obj
+[46/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/quant_lsp.c.obj
+[47/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/testenc.c.obj
+[48/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/ltp.c.obj
+[49/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/vorbis_psy.c.obj
+[50/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/stereo.c.obj
+[51/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/testenc_uwb.c.obj
+[52/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/window.c.obj
+[53/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/testenc_wb.c.obj
+[54/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/vq.c.obj
+[55/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/vbr.c.obj
+[56/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/sb_celp.c.obj
+[57/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/nb_celp.c.obj
+[58/65] Building C object esp-idf/esp-idf-speex/CMakeFiles/__idf_esp-idf-speex.dir/speex/libspeex/smallft.c.obj
+[59/65] Linking C static library esp-idf/esp-idf-speex/libesp-idf-speex.a
+[60/65] Linking C static library esp-idf/main/libmain.a
+[61/65] Generating ld/sections.ld
+[62/65] Building C object CMakeFiles/play_mp3_control.elf.dir/project_elf_src_esp32.c.obj
+[63/65] Linking CXX executable play_mp3_control.elf
+[64/65] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build/play_mp3_control.bin
+[65/65] cd /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build/esp-idf/esptool_py && /home/stepan/.espressif/python_env/idf5.0_py3.11_env/bin/python /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build/partition_table/partition-table.bin /home/stepan/Projects/fau2os/Fau3VOM/Fau3Client-Esp32/Fau3ClientFirmware/build/play_mp3_control.bin
+play_mp3_control.bin binary size 0xf67e0 bytes. Smallest app partition is 0x100000 bytes. 0x9820 bytes (4%) free.
+Warning: The smallest app partition is nearly full (4% free space left)!

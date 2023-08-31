@@ -1,0 +1,13 @@
+I have websocket server, with IP address: 10.10.11.156 which is connected to openwrt router with IP address: 10.10.10.238. Also I have client connected to the same router. I want to connect to server using router's IP address. On router I've created next firewall rule:
+config redirect
+        option dest 'lan'
+        option target 'DNAT'
+        option name 'Fau3VOMMainServer'
+        option src 'lan'
+        option src_dport '8901'
+        option dest_ip '10.10.11.156'
+        option dest_port '8901'
+        option reflection '0'
+
+After that, from client if I connect like: websocat ws://10.10.10.238:8901, I can't see any information on my server but connection stacks. How to resolve my problem?
+

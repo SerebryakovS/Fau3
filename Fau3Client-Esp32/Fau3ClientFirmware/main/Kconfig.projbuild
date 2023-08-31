@@ -1,0 +1,44 @@
+menu "Example Configuration"
+
+    config WIFI_SSID
+        string "WiFi SSID"
+        default "roaming_test"
+        help
+            SSID (network name) for the example to connect to.
+
+    config WIFI_PASSWORD
+        string "WiFi Password"
+        default "password"
+        help
+            WiFi password (WPA or WPA2) for the example to use.
+
+    config WIFI_RSSI_THRESHOLD
+        int "WiFi RSSI threshold to trigger roaming"
+        default 0
+        help
+            WiFi RSSI threshold to trigger roaming value in dbm (-100 to 0). 0 denotes feature is disabled.
+
+    config FAU3_PING_INTERVAL
+        int "Fau3Ping message interval"
+        default 0
+        help
+            Sets the time interval in seconds for Fau3Ping messages triggered by server to check connectivity
+
+    config WEBSOCKET_URI
+        string "Websocket endpoint URI"
+        default "ws://echo.websocket.org"
+        help
+            URL of websocket endpoint this example connects to and sends echo
+
+    config PLAYLIST_SIZE
+        int "Playlist size"
+        default 10
+        help
+            Maximum size of stored received audio-records at a time in ring buffer
+
+    config STORE_RECORDS_NVS
+        bool "Use NVS storage"
+        default 0
+        help
+            Enables NVS storage blobs for recordings and playlist
+endmenu
